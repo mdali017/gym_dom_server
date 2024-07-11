@@ -1,3 +1,4 @@
+import { Types } from "mongoose";
 
 
 export type TProduts = {
@@ -6,5 +7,5 @@ export type TProduts = {
     offered_price: number;
     para: string;
     image: string;
-    category: string;
+    category: Types.ObjectId;
 }
